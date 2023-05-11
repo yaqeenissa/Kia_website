@@ -1,0 +1,581 @@
+/*__________global____________*/
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    width:95%;
+    margin:auto;
+   
+    
+}
+
+.clr{
+    clear:both; 
+}
+
+ul{
+    list-style-type: none;
+}
+
+img{
+    width:100%;
+}
+/*____________________________________________*/
+
+/*header section*/
+.header{
+  background-image: url('../img/Kia-HabaNiro-Concept-9.webp');
+  height:100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow:hidden;
+  
+}
+
+.header a{
+    text-decoration: none;
+    padding: 20px 30px;  /*to increase the background of the buttons*/
+    display: inline-block; /*we put it because margin doesnt work with inline it work with blocks 
+    and <a> is inline ,or we can create a div for them*/
+    font-weight: 900;
+    font-family: 'EB Garamond', serif;
+    color:#000000;
+    border:none;
+
+}
+
+.navbar{
+    position:fixed;
+    width:100%;
+    background-color:white;
+}
+
+
+.logo{
+float:left;
+width:6%;
+padding-top: 8px;
+margin-left: 15px;
+margin-right: 50px;
+
+}
+
+.logo p{
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 900; 
+    font-size: xx-large;
+   
+
+}
+
+.links{
+    float:right;  
+    width:70%;
+    margin:auto;
+    
+}
+
+.links li{
+    float: left;
+}
+
+.links li a.active{
+    background-color: #e5c998;
+    border-radius:15%;
+    border:5px rgb(255, 255, 255) solid;
+    box-sizing: border-box;
+    
+
+}
+
+.header_contents{
+    width:45%;
+    float:right;
+    margin-top: 30px;
+}
+
+.header_contents h1{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    color:#ffffff;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+
+}
+
+.header_contents h2{
+    padding-bottom: 120px;
+    color: rgb(229 201 152);
+    font-family: 'Cookie', cursive;
+    text-align: center;
+    word-spacing: 3px;
+    
+}
+
+.header_contents a{
+    color:#ffffff;
+    background-color: rgb(229 201 152);
+    opacity: 0.8;
+    padding: 15px 28px;
+    border-radius: 20%;
+    font-family: 'EB Garamond', serif;
+}
+
+.btn-customer-login{
+ margin-left: 180px;
+}
+
+
+
+/*____________________________________________*/
+
+/*about section*/
+.about{
+    padding:50px 0 ; 
+    background-color:rgb(242 241 240);
+}
+.img-about{
+    float:left;
+    width:50%; 
+    margin-top: 50px;
+}
+.img img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.info-about{
+    float:left;
+    width:50%; 
+    margin-top: 80px; 
+    
+    
+}
+
+.info-about h2{
+    font-size: 36px;
+    color: black;
+    word-spacing: 3px;
+    font-family: 'Cookie', cursive;
+    margin-bottom: 18px;
+    text-align: center;
+   
+}
+
+.info-about h3{
+    font-family: 'Cookie', cursive;
+    word-spacing: 3px;
+    font-size: 28px;
+    color:rgb(193, 171, 132);
+    margin-bottom: 25px;
+    text-align: center;
+  
+}
+
+.info-about p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    color:#1b1b1b;
+    margin-bottom: 25px;
+
+}
+
+
+
+.info-about ul li i{  
+   background-color: rgb(193, 171, 132);
+   color:#FFFFFF;
+   padding:15px;        
+   border-radius: 50%;  
+   margin-right: 20px;  
+   margin-bottom: 20px; 
+   font-size: 15px;    
+   margin-left: 155px;
+   
+}
+
+
+/*-------------image section----------------*/
+
+.general-images{
+    padding:50px 0 ; 
+    background-color: rgb(242 241 240);
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+.general-images h2{
+    margin-bottom: 10px;
+    font-family: 'Cookie', cursive;
+    font-size: 36px;
+}
+.car{
+    float:left;
+    width:33.33%;
+    height:100%;
+    padding:7px;
+    box-sizing: border-box;
+    height: 285px;
+   
+}
+
+
+/*------------stinger2023 section-----------*/
+.stinger2023{
+    padding:50px 0;
+    background-color: rgb(242 241 240);
+    
+}
+
+.stinger-img{
+    width:50%;
+    float:left;
+
+}
+
+.stinger-abt {
+  margin-top: 15%;
+  width: 50%;
+  float:left;
+  text-align: center;
+}
+
+.stinger-abt h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+.stinger-abt h3{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 56px;
+    margin-bottom: 20px;
+}
+
+.stinger-abt-p{
+    width:50%;
+    margin:auto;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.stinger-abt a{
+    font-size:14px;
+    text-decoration: none;
+    color:black
+
+}
+
+
+/*------------k52023 section-----------*/
+.k52023{
+    padding:50px 0;
+    background-color: rgb(242 241 240);
+    
+}
+
+.k52023-img{
+    width:50%;
+    float:left;
+
+}
+
+.k52023-abt {
+  margin-top: 15%;
+  width: 50%;
+  float:left;
+  text-align: center;
+}
+
+.k52023-abt h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+.k52023-abt h3{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 56px;
+    margin-bottom: 20px;
+}
+
+.k52023 p{
+    width:50%;
+    margin:auto;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.k52023-abt a{
+    font-size:14px;
+    text-decoration: none;
+    color:black
+
+}
+
+
+/*------------forte2023 section-----------*/
+.forte2023{
+    padding:50px 0;
+    background-color: rgb(242 241 240);
+    
+}
+
+.forte2023-img{
+    width:50%;
+    float:left;
+
+}
+
+.forte2023-abt {
+  margin-top: 15%;
+  width: 50%;
+  float:left;
+  text-align: center;
+}
+
+.forte2023-abt h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+.forte2023-abt h3{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 56px;
+    margin-bottom: 20px;
+}
+
+.forte2023 p{
+    width:50%;
+    margin:auto;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.forte2023-abt a{
+    font-size:14px;
+    text-decoration: none;
+    color:black
+
+}
+
+
+/*contact us section */
+.contact{
+    padding:50px 0;
+
+}
+
+.contact-info{
+    float: left;
+    width: 50%;
+    text-align: left;
+    
+
+}
+
+.contact-info h2{
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: rgb(37, 48, 72);
+    font-family: 'Alegreya', serif;
+}
+
+.contact-info p{
+    font-size: 18px;
+    color: rgb(104, 104, 104);
+    line-height: 33.48px;
+    font-family: 'Alegreya Sans', sans-serif;
+    margin-bottom: 30px;
+}
+
+
+.contact-info li {
+    width:60%;
+    text-align:center;
+    margin-bottom: 4px;
+
+}
+.contact-info li i{
+    background-color: #8E7754;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin-bottom: 24px;
+    margin-right: 8px;
+}
+
+.contact-info li span{
+    font-size: 18px;
+    color: rgb(104, 104, 104);
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.contact-map{
+    float: left;
+    width: 50%;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+    .header {
+      height: auto;
+    }
+  
+    .header_contents {
+      width: 100%;
+      float: none;
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    .header_contents h1 {
+      margin-bottom: 20px;
+    }
+  
+    .header_contents h2 {
+      padding-bottom: 20px;
+    }
+  
+    .header_contents a {
+      margin-top: 20px;
+    }
+  
+    .btn-customer-login {
+      margin-left: 0;
+    }
+  
+    .navbar {
+      position: static;
+    }
+  
+    .links {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .links li {
+      float: none;
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    .img-about{
+       
+        width:100%; 
+        margin-top: 50px;
+    }
+    
+    .info-about{ 
+        width:100%; 
+        margin-top: 80px; 
+    }
+
+
+    .info-about h2{
+        text-align: left;
+       
+    }
+    
+    .info-about h3{
+        text-align: left;
+        
+    }
+    
+    .info-about p{
+        text-align:left;
+        margin:0;
+        margin-bottom: 30px;
+    }
+    
+    
+    .info-about ul li i{  
+       margin-left:0;
+       text-align: left;
+    }
+    
+    .car{
+        
+        width:100%;
+        margin-bottom: 5px;
+       
+    }
+
+
+
+    .stinger2023{
+        padding:30px 0;
+    }
+    
+    .stinger-img{
+        width:100%;
+    }
+    
+    .stinger-abt {
+      width: 100%;
+      
+    }
+    .stinger-abt-p{
+        width:100%;
+        text-align: left;
+    }
+    
+    .k52023{
+        padding:30px 0;
+    }
+    
+    .k52023-img{
+        width:100%;
+    }
+    
+    .k52023-abt {
+      width: 100%;
+      
+    }
+    .k52023 p{
+        width: 100%;
+    }
+
+    .forte2023{
+        padding:30px 0;
+    }
+
+    .forte2023-img{
+        width:100%;
+    }
+
+    .forte2023-abt{
+        width:100%;
+    }
+    
+    .forte2023 p{
+        width:100%;
+
+    }
+
+    .contact-info{
+        width:100%;
+    }
+
+    .contact-map{
+        width:100%;
+    }
+    
+  }
+  
